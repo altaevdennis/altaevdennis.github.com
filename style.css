@@ -1,5 +1,5 @@
 .container{
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .row{
@@ -46,10 +46,25 @@
     
 }
 header{
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     height: 100px;
 }
+
+.header-logo {
+    position: relative;
+    top: 20px;
+    width: 50px;
+    left: 20px;
+    border-right: 1px solid lightgray;
+}
+
+.header-sign {
+    position: relative;
+    left: 80px;
+    bottom: 20px;
+}
+
 
 header .container .row a img{
     max-width: 150px;
@@ -83,5 +98,6 @@ header .container .row a img{
 }
 
 .buttons{
+    float:right;
     text-align: right;
 }
