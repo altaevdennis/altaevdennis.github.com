@@ -1,0 +1,87 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    margin: 15px;
+    position: relative;
+}
+.col img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid black;*/
+}
+
+@media screen and (max-width:400px){
+    .row{
+        display: block;
+    }
+    .col{
+        padding: 0px;
+    }
+}
+
+.overlay{
+    width: 98%;
+    height: 98%;
+    /*padding-left: 5% ;*/
+    background: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.col:hover .overlay{
+    transition: 0.5s;
+    opacity: 1;
+    
+}
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+header .container .row a img{
+    max-width: 150px;
+    max-height: 900px;
+    border: 0;
+}
+
+.btn-default{
+    border:1px solid gray;
+    padding: 5px 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em black;
+    background: blue;
+}
+
+.btn-default:hover{
+    border-width: 2px;
+}
+.btn-default:active {
+  top: .1em;
+  left: .1em;
+  box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+}
+
+.logo {
+  float: left;
+}
+
+.buttons{
+    text-align: right;
+}
