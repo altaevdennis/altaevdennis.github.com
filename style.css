@@ -101,3 +101,36 @@ header .container .row a img{
     float:right;
     text-align: right;
 }
+
+.profile-img {
+    position: relative;
+    left: 70px;
+    top: 40px;
+    margin-bottom: 20px;
+    width: 150px!important;
+    height: 150px!important;
+    border-radius: 150px;
+}
+
+.profile-name {
+    font-size: 32px;
+    font-style: normal;
+    position: relative;
+    right: 160px;
+    top: 10px;
+}
+
+.profile-data {
+    position: relative;
+    right: 200px;
+    bottom: 15px;
+}
+
+.profile-data-text {
+    margin-left: 40px
+}
+
+.profile-meta {
+    position: relative;
+    right: 164px;
+}
